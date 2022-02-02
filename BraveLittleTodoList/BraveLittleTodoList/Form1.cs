@@ -21,5 +21,10 @@ namespace BraveLittleTodoList
         {
 
         }
+
+        private void txtTodo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

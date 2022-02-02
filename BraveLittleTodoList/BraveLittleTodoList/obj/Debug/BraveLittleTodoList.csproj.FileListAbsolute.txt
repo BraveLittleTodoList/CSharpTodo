@@ -8,3 +8,9 @@ D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleT
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.CoreCompileInputs.cache
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.exe
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.pdb
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\EntityFramework.dll
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\EntityFramework.xml
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.CopyComplete
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Migrations.AddStatusToDB.resources
