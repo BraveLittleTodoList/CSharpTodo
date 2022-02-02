@@ -1,0 +1,10 @@
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\BraveLittleTodoList.exe.config
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\BraveLittleTodoList.exe
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\BraveLittleTodoList.pdb
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.AssemblyReference.cache
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Form1.resources
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Properties.Resources.resources
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.GenerateResource.cache
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.CoreCompileInputs.cache
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.exe
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.pdb
