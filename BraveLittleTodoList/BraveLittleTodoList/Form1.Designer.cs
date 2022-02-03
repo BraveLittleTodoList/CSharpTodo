@@ -76,7 +76,7 @@ namespace BraveLittleTodoList
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Todo";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            
             // 
             // txtTodo
             // 
@@ -84,7 +84,7 @@ namespace BraveLittleTodoList
             this.txtTodo.Name = "txtTodo";
             this.txtTodo.Size = new System.Drawing.Size(214, 20);
             this.txtTodo.TabIndex = 0;
-            this.txtTodo.TextChanged += new System.EventHandler(this.txtTodo_TextChanged);
+            
             // 
             // dateTimePicker1
             // 
