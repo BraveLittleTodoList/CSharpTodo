@@ -17,6 +17,8 @@ namespace BraveLittleTodoList
 
         public Form1()
         {
+            InitializeComponent();
+
             tlContext = new tlDBContext();
 
             var Statuses = tlContext.Statuses.ToList();

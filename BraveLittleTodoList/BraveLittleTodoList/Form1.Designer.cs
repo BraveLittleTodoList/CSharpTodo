@@ -31,16 +31,16 @@ namespace BraveLittleTodoList
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtTodo = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.cboStatus = new System.Windows.Forms.ComboBox();
-            this.cmdCreate = new System.Windows.Forms.Button();
-            this.cmdUpdateTask = new System.Windows.Forms.Button();
-            this.cmdDeletetask = new System.Windows.Forms.Button();
-            this.cmdCancel = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmdCancel = new System.Windows.Forms.Button();
+            this.cmdDeletetask = new System.Windows.Forms.Button();
+            this.cmdUpdateTask = new System.Windows.Forms.Button();
+            this.cmdCreate = new System.Windows.Forms.Button();
+            this.cboStatus = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtTodo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -76,77 +76,15 @@ namespace BraveLittleTodoList
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Todo";
-            
             // 
-            // txtTodo
+            // label3
             // 
-            this.txtTodo.Location = new System.Drawing.Point(52, 22);
-            this.txtTodo.Name = "txtTodo";
-            this.txtTodo.Size = new System.Drawing.Size(214, 20);
-            this.txtTodo.TabIndex = 0;
-            
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(434, 19);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(120, 20);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
-            // cboStatus
-            // 
-            this.cboStatus.FormattingEnabled = true;
-            this.cboStatus.Location = new System.Drawing.Point(52, 45);
-            this.cboStatus.Name = "cboStatus";
-            this.cboStatus.Size = new System.Drawing.Size(122, 21);
-            this.cboStatus.TabIndex = 3;
-            this.cboStatus.Text = "Please select...";
-            // 
-            // cmdCreate
-            // 
-            this.cmdCreate.Location = new System.Drawing.Point(180, 48);
-            this.cmdCreate.Name = "cmdCreate";
-            this.cmdCreate.Size = new System.Drawing.Size(86, 23);
-            this.cmdCreate.TabIndex = 4;
-            this.cmdCreate.Text = "Create";
-            this.cmdCreate.UseVisualStyleBackColor = true;
-            // 
-            // cmdUpdateTask
-            // 
-            this.cmdUpdateTask.Location = new System.Drawing.Point(272, 48);
-            this.cmdUpdateTask.Name = "cmdUpdateTask";
-            this.cmdUpdateTask.Size = new System.Drawing.Size(75, 23);
-            this.cmdUpdateTask.TabIndex = 5;
-            this.cmdUpdateTask.Text = "Update";
-            this.cmdUpdateTask.UseVisualStyleBackColor = true;
-            // 
-            // cmdDeletetask
-            // 
-            this.cmdDeletetask.Location = new System.Drawing.Point(272, 77);
-            this.cmdDeletetask.Name = "cmdDeletetask";
-            this.cmdDeletetask.Size = new System.Drawing.Size(75, 23);
-            this.cmdDeletetask.TabIndex = 6;
-            this.cmdDeletetask.Text = "Delete";
-            this.cmdDeletetask.UseVisualStyleBackColor = true;
-            // 
-            // cmdCancel
-            // 
-            this.cmdCancel.Location = new System.Drawing.Point(353, 48);
-            this.cmdCancel.Name = "cmdCancel";
-            this.cmdCancel.Size = new System.Drawing.Size(75, 23);
-            this.cmdCancel.TabIndex = 7;
-            this.cmdCancel.Text = "Cancel";
-            this.cmdCancel.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Task:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(372, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Due Date:";
             // 
             // label2
             // 
@@ -157,14 +95,74 @@ namespace BraveLittleTodoList
             this.label2.TabIndex = 9;
             this.label2.Text = "Status:";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(372, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Due Date:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Task:";
+            // 
+            // cmdCancel
+            // 
+            this.cmdCancel.Location = new System.Drawing.Point(272, 77);
+            this.cmdCancel.Name = "cmdCancel";
+            this.cmdCancel.Size = new System.Drawing.Size(75, 23);
+            this.cmdCancel.TabIndex = 7;
+            this.cmdCancel.Text = "Cancel";
+            this.cmdCancel.UseVisualStyleBackColor = true;
+            // 
+            // cmdDeletetask
+            // 
+            this.cmdDeletetask.Location = new System.Drawing.Point(353, 48);
+            this.cmdDeletetask.Name = "cmdDeletetask";
+            this.cmdDeletetask.Size = new System.Drawing.Size(75, 23);
+            this.cmdDeletetask.TabIndex = 6;
+            this.cmdDeletetask.Text = "Delete";
+            this.cmdDeletetask.UseVisualStyleBackColor = true;
+            // 
+            // cmdUpdateTask
+            // 
+            this.cmdUpdateTask.Location = new System.Drawing.Point(272, 48);
+            this.cmdUpdateTask.Name = "cmdUpdateTask";
+            this.cmdUpdateTask.Size = new System.Drawing.Size(75, 23);
+            this.cmdUpdateTask.TabIndex = 5;
+            this.cmdUpdateTask.Text = "Update";
+            this.cmdUpdateTask.UseVisualStyleBackColor = true;
+            // 
+            // cmdCreate
+            // 
+            this.cmdCreate.Location = new System.Drawing.Point(180, 48);
+            this.cmdCreate.Name = "cmdCreate";
+            this.cmdCreate.Size = new System.Drawing.Size(86, 23);
+            this.cmdCreate.TabIndex = 4;
+            this.cmdCreate.Text = "Create";
+            this.cmdCreate.UseVisualStyleBackColor = true;
+            // 
+            // cboStatus
+            // 
+            this.cboStatus.FormattingEnabled = true;
+            this.cboStatus.Location = new System.Drawing.Point(52, 45);
+            this.cboStatus.Name = "cboStatus";
+            this.cboStatus.Size = new System.Drawing.Size(122, 21);
+            this.cboStatus.TabIndex = 3;
+            this.cboStatus.Text = "Please select...";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(434, 19);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(120, 20);
+            this.dateTimePicker1.TabIndex = 1;
+            // 
+            // txtTodo
+            // 
+            this.txtTodo.Location = new System.Drawing.Point(52, 22);
+            this.txtTodo.Name = "txtTodo";
+            this.txtTodo.Size = new System.Drawing.Size(214, 20);
+            this.txtTodo.TabIndex = 0;
             // 
             // Form1
             // 
