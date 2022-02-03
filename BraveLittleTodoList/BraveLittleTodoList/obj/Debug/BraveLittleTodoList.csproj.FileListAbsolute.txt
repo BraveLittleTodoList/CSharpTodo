@@ -15,3 +15,4 @@ D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\bin\Debug\EntityFramew
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.csproj.CopyComplete
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Migrations.AddStatusToDB.resources
 D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Migrations.AddStatusSeedDataToDB.resources
+D:\CSharpTodoList\BraveLittleTodoList\BraveLittleTodoList\obj\Debug\BraveLittleTodoList.Migrations.AddTaskToDB.resources
