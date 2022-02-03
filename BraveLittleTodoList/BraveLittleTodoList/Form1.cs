@@ -30,5 +30,23 @@ namespace BraveLittleTodoList
 
         }
 
+        private void cmdCreate_Click(object sender, EventArgs e)
+        {
+            if (cboStatus.SelectedItem != null && txtTodo.Text !=String.Empty)
+            {
+                var newTask = new Model.Task
+                {
+                    Name = txtTodo.Text,
+                    StatusId = (cboStatus.SelectedItem as Model.Status).Id,
+                    DueDate = dateTimePicker1.Value
+                };
+                tlContext.Tasks.Add(newTask);
+                tlContext.SaveChanges();
+            }
+            else
+            {
+                MessageBox.Show("Please make sure you entered a task in the Taskbox.");
+            }
+        }
     }
 }

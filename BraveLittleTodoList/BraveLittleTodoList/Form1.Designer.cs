@@ -139,6 +139,7 @@ namespace BraveLittleTodoList
             this.cmdCreate.TabIndex = 4;
             this.cmdCreate.Text = "Create";
             this.cmdCreate.UseVisualStyleBackColor = true;
+            this.cmdCreate.Click += new System.EventHandler(this.cmdCreate_Click);
             // 
             // cboStatus
             // 
