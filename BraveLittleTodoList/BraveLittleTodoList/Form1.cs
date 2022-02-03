@@ -7,24 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BraveLittleTodoList.Model;
 
 namespace BraveLittleTodoList
 {
     public partial class Form1 : Form
     {
+        private tlDBContext tlContext;
+
         public Form1()
         {
-            InitializeComponent();
-        }
+            tlContext = new tlDBContext();
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
+            var Statuses = tlContext.Statuses.ToList();
 
-        }
-
-        private void txtTodo_TextChanged(object sender, EventArgs e)
-        {
+            foreach(Status s in Statuses)
+            {
+                cboStatus.Items.Add(s);
+            }
 
         }
+
     }
 }
